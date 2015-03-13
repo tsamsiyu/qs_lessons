@@ -1,0 +1,35 @@
+#main_menu > li{
+    float: left;
+    display: block;
+    padding: 5px 7px;
+    width: 100px;
+    border: 1px solid blue;
+}
+#main_menu > li:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+#main_menu > li > a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Verdana;
+}
+#main_menu > li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#main_menu > li:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#main_menu{
+    display: block;
+    width: 580px;
+    margin: 0 auto;
+}
+
+.wrap_content{
+    min-height: 500px;
+}
